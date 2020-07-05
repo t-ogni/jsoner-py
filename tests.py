@@ -1,14 +1,15 @@
 import jsoner
 
-db=jsoner.db('test.json',{},2)
+db = jsoner.db('test.json', {})
+db['lolo'] = {}
+db['lolo']['haha'] = {}
+db['lolo']['haha']['ss'] = {}
+db['lolo']['haha']['ss']['gg'] = {}
+db['lolo']['haha']['ss']['gg']['aha'] = {}
+db['lolo']['haha']['ss']['gg']['aha']['lol'] = 1
+db['lolo']['haha']['ss']['gg']['aha']['lol'] = 'string'
 print(db)
-db['test'] = 34
-
-if len(db) > 20:
-    print(a)
-else:
-    print(len(db)>=3)
-
+print(db['lolo']['haha'])
 '''
     def __contains__(self, item):
         # item in self  --> bool

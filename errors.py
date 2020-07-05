@@ -12,21 +12,16 @@ jsoner.errors
 """
 
 
-class Error(Exception):
-    pass
+class Error(Exception): pass
 
 
-class UnsupportedTypeError(Error):
-    pass
+class UnsupportedTypeError(Error): pass
 
 
-class IllegalTypeError(Error):
-    pass
+class IllegalTypeError(Error): pass
 
 
-class UnreadableJSON(Error):
-    pass
+class UnreadableJSON(Error): pass
 
 
-class UnsupportedOperation(Error):
-    pass
+class UnsupportedOperation(Error): pass

@@ -1,0 +1,9 @@
+/test.json
+.idea/.gitignore
+.idea/dictionaries/
+.idea/inspectionProfiles/
+.idea/jsoner.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+__pycache__/
