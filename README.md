@@ -10,7 +10,7 @@ if you set data - all data in file will be cleared and reloaded
      use them once for creating or make file by yourself         
   
 ###simple example:
-*1. adding element 
+1. adding element 
 ```python
   import jsoner
   db = jsoner.db('testname.json',{})   # creates db file with {}
@@ -18,7 +18,7 @@ if you set data - all data in file will be cleared and reloaded
   print(db)                            # shows {'test':1}
 ```
 
-*2. adding ??? 
+2. adding included element 
 ```python
   import jsoner
   db = jsoner.db('testname.json',{})   # creates db file with {}
@@ -26,7 +26,7 @@ if you set data - all data in file will be cleared and reloaded
   print(db)                            # shows {'test1':{'test2':{'test3':1}}}}
 ```
 
-*3. getting an element
+3. getting an element
 ```python
   #ages.json = {"John":30, "Kate":24}
   
@@ -36,9 +36,11 @@ if you set data - all data in file will be cleared and reloaded
   print(db)
 ```
 
+TODO!
+-------
 
-*4. deleting an element
-#TODO!
+4. deleting an element
+
 ```python
   #ages.json = {"John":30, "Kate":24}
   
