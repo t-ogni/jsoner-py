@@ -38,6 +38,7 @@ if you set data - all data in file will be cleared and reloaded
 
 
 *4. deleting an element
+#TODO!
 ```python
   #ages.json = {"John":30, "Kate":24}
   
